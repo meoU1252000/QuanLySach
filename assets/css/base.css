@@ -1,0 +1,73 @@
+/*Animation*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+  }
+
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+
+@media only screen and (max-width: 1182px) {
+  .home-product-item {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .grid_column-2-4 {
+    width: 50%;
+  }
+}
+
+@keyframes moveleft {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 15%;
+  }
+}
+@keyframes moveright {
+  from {
+    right: 15%;
+  }
+  to {
+    right: 0;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #eee;
+  border-radius: 100rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 100rem;
+  background-image: linear-gradient(to bottom, #063547, #44b89d);
+  height: 200px;
+}

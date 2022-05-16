@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  position: relative;
+  background-image: url(../img/background.jpg);
+  width: 100%;
+  height: 937px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-form__heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Heebo", sans-serif;
+  margin-top: 6px;
+}
+
+.login-form__group {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  width: 100%;
+  padding-left: 3%;
+}
+.form .login-form__group:nth-child(2) {
+  margin-bottom: 24px;
+}
+.login-form__label {
+  display: block;
+  margin-bottom: 12px;
+  padding: 0;
+  opacity: 0.8;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.login-form__input {
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.205);
+  width: 90%;
+  font-size: 16px;
+  padding-bottom: 8px;
+  font-weight: 400;
+  opacity: 0.8;
+  outline: none;
+}
+
+.login-form__message {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  opacity: 0.8;
+  color: red;
+  width: 90%;
+  word-break: break-word;
+}
+
+.warn_icon {
+  margin-right: 6px;
+}
+
+.login-form__forget {
+  text-align: right;
+  margin-right: 6%;
+  margin-bottom: 32px;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.login-form__button {
+  position: relative;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 90%;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background: rgb(43, 154, 167);
+  cursor: pointer;
+  margin-left: 3%;
+}
